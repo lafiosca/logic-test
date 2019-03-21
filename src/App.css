@@ -1,0 +1,52 @@
+.layout {
+	display: flex;
+	flex-direction: row;
+}
+
+.grid {
+	display: flex;
+	flex-direction: column;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+.cell {
+	flex: 1;
+	border: solid 1px black;
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 30px;
+}
+
+.marked {
+	background-color: grey;
+}
+
+.withCursor {
+	border: solid 1px blue;
+	background-color: lightblue;
+}
+
+.withCursorShadow {
+	border: solid 1px blue;
+	background-color: lightgrey;
+}
+
+.withCursor.marked {
+	background-color: darkblue;
+}
+
+.withCursorShadow.marked {
+	background-color: darkgrey;
+}
+
+.spacer {
+	width: 100px;
+	height: 100px;
+}
