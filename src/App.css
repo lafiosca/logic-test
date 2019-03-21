@@ -1,52 +1,46 @@
 .layout {
-	display: flex;
-	flex-direction: row;
-}
-
-.grid {
-	display: flex;
 	flex-direction: column;
 }
 
-.row {
+.question {
 	display: flex;
 	flex-direction: row;
-}
-
-.cell {
-	flex: 1;
-	border: solid 1px black;
-	width: 30px;
-	height: 30px;
-	background-color: white;
-	text-transform: uppercase;
-	text-align: center;
-	line-height: 30px;
-}
-
-.marked {
-	background-color: grey;
-}
-
-.withCursor {
-	border: solid 1px blue;
+	margin: 8px;
 	background-color: lightblue;
 }
 
-.withCursorShadow {
-	border: solid 1px blue;
-	background-color: lightgrey;
+.choices {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	margin: 4px;
 }
 
-.withCursor.marked {
-	background-color: darkblue;
+.questionNumber {
+	font-size: 16px;
+	margin: 4px;
 }
 
-.withCursorShadow.marked {
-	background-color: darkgrey;
+.choice {
+	display: flex;
+	flex: 1;
+	margin: 2px;
 }
 
-.spacer {
-	width: 100px;
-	height: 100px;
+
+.solutions {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	margin: 8px;
+	margin-left: 32px;
+}
+
+.solutionsTitle {
+	font-size: 16px;
+}
+
+.solution {
+	margin: 2px;
+	font-size: 14px;
 }
